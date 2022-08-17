@@ -1,0 +1,63 @@
+<div class="flex-container">
+    <div class="div-item">
+        <div class="div-item1">
+            <img src="../../assets/sri.jpg" class="center">
+            <p>Sriparna Sinha</p>
+        </div>
+        <div class="div-item2">
+            <button class="button" (click)="myAbout()"> <i class="fa-solid fa-user"></i>&nbsp;About</button>
+
+            <button class="button" (click)="myLink()"><i class="fa-solid fa-link"></i>&nbsp;Link
+            </button>
+            <button class="button" (click)="myResume()"><i class="fa-solid fa-file"></i>&nbsp;Resume</button>
+            <button class="button" (click)="mySkill()"><i class="fa-solid fa-code"></i>&nbsp;Skill</button>
+        </div><br>
+        <div *ngIf="showAbout" class="div-item3">
+            <p class="ptag">Myself Sriparna Sinha. My strength is I am hard worker and whenever I get the opputunity to
+                show up my skill and knowledges i try to solve with interest. At present i am as a Trainee at Inocentum
+                Technology IT Company.</p>
+        </div>
+        <div *ngIf="showLink" class="div-item3">
+            <div class="flex-container3">
+                <div class="flex-item3">
+                    <a class="link linkedin">
+                        <i class="fab fa-2x fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="flex-item3"> <a class="link twitter">
+                        <i class="fab fa-2x fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="flex-item3">
+                    <a class="link youtube">
+                        <i class="fab fa-2x fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="flex-item3">
+                    <a class="link instagram">
+                        <i class="fab fa-2x fa-instagram"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+        <div *ngIf="showCv" class="div-item3">
+           <a href="../../assets/Resume.pdf"><button class="resumeButton"><i class="fa-solid fa-file-arrow-down"></i>&nbsp;Download</button></a>
+        </div>
+        <div *ngIf="showSkill" class="div-item3">
+            <div class="flex-container2">
+                <div class="flex-item">HTML</div>
+                <div class="flex-item">CSS</div>
+                <div class="flex-item">SCSS</div>
+                <div class="flex-item">JavaScript</div>
+                <div class="flex-item">TypeScript</div>
+                <div class="flex-item">Angular</div>
+                <div class="flex-item">Bootstrap</div>
+                <div class="flex-item">Database Management System</div>
+                <div class="flex-item">Software Architecture</div>
+            </div>
+        </div>
+    </div>
+
+</div>

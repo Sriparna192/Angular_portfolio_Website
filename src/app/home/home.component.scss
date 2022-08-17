@@ -1,0 +1,148 @@
+// html{
+//     background-color: rgba(0, 0, 0, 0.864);
+// }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // background-color: black;
+  background: url(../../assets/img8.jpg) no-repeat;
+  background-size: cover;
+}
+
+.flex-container>div {
+  // background-color: rgb(98, 104, 223);
+  background: url(../../assets/img5.jpg) no-repeat;
+  color: white;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  // align-items: center;    
+  // background: url(../../assets/img.jpg) no-repeat ;
+}
+
+.div-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-item1>p {
+  // border:2px solid black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: auto;
+}
+
+img {
+  width: 75px;
+  height: 80px;
+  display: block;
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  // width: 30%;
+}
+
+.div-item2>button {
+  background-color: #f98b2c;
+  /* Green */
+  border: none;
+  color: white;
+  border-radius: 9px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+//  .div-item2.button.hover{
+//     background-color:aquamarine;
+//  }
+.div-item2 {
+  text-align: center;
+  margin: 0;
+}
+
+.ptag {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  text-align: center;
+}
+.flex-container2{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.flex-item
+{
+  // border:2px solid whitesmoke;
+ border-radius: 5px;
+margin:2px;
+background-image: url(../../assets/img2.jpg);
+padding:3px;
+}
+
+.flex-container3
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-item3
+{
+
+margin:5px;
+padding:3px;
+}
+
+
+a i {
+  transition: all 0.3s linear;
+}
+
+a:hover i {
+  transform: scale(1.5);
+}
+
+.youtube:hover {
+  color: red;
+}
+.instagram:hover {
+  color: #e11d74;
+}
+.linkedin:hover {
+  color: #04009a;
+}
+.twitter:hover {
+  color: #00adb5;
+}
+
+.div-item3{
+text-align: center;
+}
+.resumeButton{
+  display: inline-block;
+  border-radius: 4px;
+  // background-color: #f4511e;
+  background-image: url(../../assets/img2.jpg);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
